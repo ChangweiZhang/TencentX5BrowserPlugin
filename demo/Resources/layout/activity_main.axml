@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <X5WebDemo.X5WebView
+        android:id="@+id/full_web_webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </X5WebDemo.X5WebView>
+    <Button
+        android:id="@+id/test_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Home"
+        android:autoText="true"
+        android:textColor="@android:color/white"
+        android:background="#33000000"/>
+    <Button
+        android:id="@+id/test_btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Back"
+        android:autoText="true"
+        android:textColor="@android:color/white"
+        android:background="#33000000"/>
+    <Button
+        android:id="@+id/test_btn_forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Forward"
+        android:autoText="true"
+        android:textColor="@android:color/white"
+        android:background="#33000000"/>
+</RelativeLayout>
