@@ -26,8 +26,13 @@ namespace X5WebDemo
             if (URLUtil.IsHttpsUrl(p1) || URLUtil.IsHttpUrl(p1))
             {
                 res = true;
+                p0.LoadUrl(p1);
             }
-            p0.LoadUrl(p1);
+            else
+            {
+                Log.Info("url", p1);
+            }
+
             return res;
         }
     }
