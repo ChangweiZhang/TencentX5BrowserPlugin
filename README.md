@@ -1,6 +1,10 @@
 # TencentX5BrowserPlugin
 Xamarin Plugin for Tencent X5 Browser SDK
 
+![Tencent X5 Browser](https://x5.tencent.com/tbs/img/article/tbs3.png)
+
+[Tencent X5 Browser Home Page](https://x5.tencent.com/tbs/index.html)
+
 ## Content
 
 It Provides two Xamarin Android Binding Plugins:
